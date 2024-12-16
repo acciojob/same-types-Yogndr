@@ -1,5 +1,5 @@
 function isSameType(value1, value2) {
-	if(typeof(value1)==typeof(value2) ||(value1==NaN && value2==NaN)){
+	if((typeof(value1)===typeof(value2)) ||(isNaN(value1) && isNaN(value2))){
 		return true;
 	}
 	else if(typeof(value1)!=typeof(value))
